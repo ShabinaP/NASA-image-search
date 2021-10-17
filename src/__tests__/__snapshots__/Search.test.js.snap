@@ -7,14 +7,14 @@ exports[`Search renders correctly 1`] = `
   >
     <input
       class="search_input"
+      placeholder="Search here.."
       type="text"
     />
     <button
       class="submit_button"
-      placeholder="Search our cool database.."
       type="submit"
     >
-       Search 
+       Shoot! 
     </button>
   </form>
    
