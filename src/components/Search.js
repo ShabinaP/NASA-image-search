@@ -3,11 +3,11 @@ import "../styles/Search.css"
 import "../requests/getImages"
 import getImages from "../requests/getImages";
 
-const Search = ({setSearchResults}) => {
-const [value, setValue] = useState("")
-const handleSubmit = (event) => {
+const Search =  ({setSearchResults}) => {
+const [value, setValue] = useState()
+const handleSubmit = async (event) => {
     event.preventDefault()
-    setSearchResults(getImages(value))
+    setSearchResults(await getImages(value))
 }
     return (
         <> 
