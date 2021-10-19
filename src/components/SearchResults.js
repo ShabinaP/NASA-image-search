@@ -1,4 +1,4 @@
-import React from "react";
+import {React, PropTypes} from "react";
 import "../styles/SearchResults.css"
 
 const SearchResults = ({results}) => {
@@ -20,5 +20,8 @@ else
     )
 }
 
+SearchResults.propTypes = {
+    results: PropTypes.array.isRequired,
+}
 
 export default SearchResults;

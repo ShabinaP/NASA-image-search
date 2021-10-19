@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, PropTypes } from "react";
 import "../styles/Search.css"
 import "../requests/getImages"
 import getImages from "../requests/getImages";
@@ -19,4 +19,7 @@ const handleSubmit = async (event) => {
 
     }
 
+    Search.propTypes = {
+        setSearchResults: PropTypes.func.isRequired,
+    }
     export default Search;
