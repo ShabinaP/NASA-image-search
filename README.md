@@ -1,7 +1,7 @@
 # React Technical Test - NASA Image Search
 
 This project was created in response to a mock 'technical task' brief.
-The aim of this project was to display sets of images in response to a search query inputted by the user. 
+The aim of this project was to display specific sets of images in response to a search query inputted by the user. 
 
 ## Built With
 React
@@ -24,6 +24,10 @@ Launches the test runner in the interactive watch mode.
 ### `npm run build`
 
 Builds the app for production to the `build` folder
+
+### If I had more time I would:
+- Add animation to the images so it is visually appealing (e.g: on hovering over the images, a short description would appear)
+- Add a filter function to sort images 
 
 ### React technical task - NASA Image Search Project
 - Project built as part of the Manchester Codes bootcamp
