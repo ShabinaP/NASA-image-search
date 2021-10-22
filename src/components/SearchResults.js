@@ -1,9 +1,10 @@
-import {React, PropTypes} from "react";
+import {React} from "react";
+import PropTypes from "prop-types";
 import "../styles/SearchResults.css"
 
 const SearchResults = ({results}) => {
 if(!results.length) {
-    return <p>No results</p>
+    return <p></p>
 }
 else
     return (
@@ -13,7 +14,7 @@ else
         <img 
         className="card-image"
         src={image}
-        alt="moon"
+        alt="NASA images"
         />
         ))}
          </>

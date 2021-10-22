@@ -4,7 +4,12 @@ import Search from "../components/Search";
 
 
 describe("Search", () => {
-    const {asFragment} = render(<Search/>);
+    const validProps = {
+        setSearchResults: () => {}
+    }
+    const {asFragment} = render(<Search
+    setSearchResults={validProps.setSearchResults}
+    />);
 
     it("renders correctly", () => {
         expect(asFragment()).toMatchSnapshot()

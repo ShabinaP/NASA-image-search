@@ -1,4 +1,5 @@
-import React, { useState, PropTypes } from "react";
+import React, { useState } from "react";
+import PropTypes from "prop-types";
 import "../styles/Search.css"
 import "../requests/getImages"
 import getImages from "../requests/getImages";
