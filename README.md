@@ -4,7 +4,7 @@ This project was created in response to a mock 'technical task' brief.
 The aim of this project was to display specific sets of images in response to a search query inputted by the user, using the NASA images API. 
 
 ## App on Desktop:
-![Alt text](/../<screenshots>ReadmeResources/Screenshot 2021-10-22 at 22.07.31.png?raw=true)
+![Screenshot 2021-10-22 at 22 07 31](https://user-images.githubusercontent.com/79164944/138523984-7461dc7c-be03-458a-ad6b-dc78b3a9dd3f.png)
 
 ## Built With
 React
