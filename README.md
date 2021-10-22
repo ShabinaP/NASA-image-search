@@ -1,14 +1,16 @@
 # React Technical Test - NASA Image Search
 
 This project was created in response to a mock 'technical task' brief.
-The aim of this project was to display specific sets of images in response to a search query inputted by the user. 
+The aim of this project was to display specific sets of images in response to a search query inputted by the user, using the NASA images API. 
+
+## App on Desktop:
+![Alt text](/../<screenshots>ReadmeResources/Screenshot 2021-10-22 at 22.07.31.png?raw=true)
 
 ## Built With
 React
 
 ## Tested with
 React Testing Library + Jest
-
 
 ## Packages used
 Axios, PropTypes
@@ -27,10 +29,11 @@ Builds the app for production to the `build` folder
 
 ### If I had more time I would:
 - Add animation to the images so it is visually appealing (e.g: on hovering over the images, a short description would appear)
-- Add a filter function to sort images 
+- Add a filter function to sort images (e.g: date photo was taken, oldest to newest)
 - Deploy the app via Heroku/Github Pages
 
 ### React technical task - NASA Image Search Project
 - Project built as part of the Manchester Codes bootcamp
+- Author: Shabina Patel
 - Email: shabina-patel@hotmail.com 
 - Github profile: ShabinaP
