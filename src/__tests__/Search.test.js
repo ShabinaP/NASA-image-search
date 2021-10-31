@@ -14,4 +14,6 @@ describe("Search", () => {
     it("renders correctly", () => {
         expect(asFragment()).toMatchSnapshot()
     })
+
+
 }) 

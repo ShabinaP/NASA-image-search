@@ -9,7 +9,7 @@ if(!results.length) {
 else
     return (
         <>
-        <p>Search Results</p>
+        <p className="search-results">Search Results</p>
         {results.map((image) => (
         <img 
         className="card-image"
